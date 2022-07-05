@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #a6a6bf;
+}
+.logo img{
+    max-width: 250px;
+    width: 100%;
+}
+.logo{
+    margin:20px 0;
+    text-align: center;
+}
+.box-login h3{
+    text-align: center;
+}
+.box-login-users{
+    display: flex;
+    max-width: 500px;
+    margin:10px auto;
+}
+.box-login-user-single img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+.box-login-user-single p{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    background-color: white;
+    padding: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.box-login-user-single{
+    
+    position: relative;
+}
+.box-user-close{
+    position: absolute;
+    left:3px;
+    top:3px;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    transition: 0.3s;
+}
+.box-user-close span{
+    text-align: center;
+    background-color:rgba(0,0,0,0.4);
+    width:20px;
+    height:20px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+.box-login-user-single:hover .box-user-close{
+    transform: scale(1.5,1.5);
+}
+.box-form{
+    margin: 40px auto;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.box-form input[type=email],
+.box-form input[type=password] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+.box-form input[type=submit]{
+    background-color: #1877f2;
+    border: 0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+a.esqueceu-senha{
+    color: #1877f2;
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+a.criar-conta{
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color: #42b72a;
+    border: 0;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
